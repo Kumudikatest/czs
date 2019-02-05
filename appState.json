@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "20bd5a90-f5d4-455b-973c-c2696dd04620": {
+        "id": "20bd5a90-f5d4-455b-973c-c2696dd04620",
+        "parent": null,
+        "name": "czs",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "ac5d2ded-92ce-46c9-b6b5-75da86c6fe6d"
+        ],
+        "isRemovable": false,
+        "filePath": "czs"
+      },
+      "ac5d2ded-92ce-46c9-b6b5-75da86c6fe6d": {
+        "id": "ac5d2ded-92ce-46c9-b6b5-75da86c6fe6d",
+        "parent": "20bd5a90-f5d4-455b-973c-c2696dd04620",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "czs/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "20bd5a90-f5d4-455b-973c-c2696dd04620",
+    "openFiles": [
+      "ac5d2ded-92ce-46c9-b6b5-75da86c6fe6d"
+    ],
+    "currentFileId": "ac5d2ded-92ce-46c9-b6b5-75da86c6fe6d",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "czs",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1549366460379
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "czs",
+      "url": "https://github.com/Kumudikatest/czs"
+    }
+  }
+}
