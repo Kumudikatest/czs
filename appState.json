@@ -60,12 +60,12 @@
   },
   "PROJECT_META": {
     "projectName": "czs",
-    "projectDescription": "",
+    "projectDescription": "description",
     "projectVersion": "1.0.0",
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1549366460379
+    "lastSave": 1549603732698
   },
   "VCS_STATE": {
     "provider": "GitHub",
